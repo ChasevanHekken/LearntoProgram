@@ -3,6 +3,7 @@ num_at_start = 5
 num_now = num_at_start
 
 while num_now > 2
+ 
   puts num_now.to_s + ' bottles of beer on the wall, ' +
   num_now.to_s + ' bottles of beer!'
   
@@ -10,7 +11,9 @@ while num_now > 2
   
   puts 'Take one down, pass it around, ' +
   num_now.to_s + ' bottles of beer on the wall!'
+  
 end
+
 puts "2 bottles of beer on the wall, 2 bottles of beer!"
 puts "Take one down, pass it around, 1 bottle of beer on the wall!"
 puts "1 bottle of beer on the wall, 1 bottle of beer!"
